@@ -1,0 +1,67 @@
+.scribbleInput{
+    border: none;
+    outline: none;
+    padding: 2px;
+    width: 40%;
+    border-radius: 3px 0px 0px 3px;
+}
+
+.scribbleButton{
+    border: none;
+    outline: none;
+    padding: 2px;
+    border-radius: 0px 3px 3px 0px;
+    background-color:#63B6C6;
+    color: #DEE3E5;
+}
+
+.scribbleButton:active{
+    outline: none;
+}
+
+.scribbleData{
+    margin-top: 50px;
+    color: #DBE0E2;
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+.btnDelete{
+    border: none;
+    outline: none;
+    margin: 3px;
+    padding: 2px;
+    border-radius: 3px;
+    background-color:#F2737F;
+    color: #DEE3E5;
+}
+
+.btnDelete:active{
+    outline:;
+}
+
+.btnUpdate{
+    border: none;
+    outline: none;
+    margin: 3px;
+    padding: 2px;
+    border-radius: 3px;
+    background-color: #EAB272;
+    color: #DEE3E5;
+}
+
+.btnUpdate:active{
+    outline:;
+}

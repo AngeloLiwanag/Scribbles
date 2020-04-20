@@ -7,6 +7,16 @@
   pointer-events: none;
 }
 
+.bg-scribble{
+  background-color: #3E3E3E;
+  min-height: 100vh;
+}
+
+.text-scribble{
+  color: #63B6C6;
+  font-family: 'Roboto', sans-serif;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
